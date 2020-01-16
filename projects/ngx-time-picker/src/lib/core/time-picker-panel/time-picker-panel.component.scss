@@ -1,0 +1,26 @@
+:host {
+  color: #ddd;
+  padding: 1rem 2rem;
+  background-color: #fff;
+  border: 1px solid currentColor;
+  border-radius: 5px;
+  // box-shadow: 2px 3px 5px currentColor;
+
+  .colon {
+    margin: 0 0.5rem;
+  }
+
+  .tp-btn-group {
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+    button {
+      width: 4rem;
+      margin: 0 1rem;
+      color: white;
+      border: none;
+      background-color: #00000066;
+      border-radius: 3px;
+    }
+  }
+}

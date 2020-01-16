@@ -1,8 +1,21 @@
 {
   "name": "ngx-time-picker",
   "version": "0.0.1",
+  "description": "angular time picker implements by angular cdk overlay",
   "peerDependencies": {
     "@angular/common": "^8.2.0",
-    "@angular/core": "^8.2.0"
-  }
+    "@angular/core": "^8.2.0",
+    "@angular/forms": "~8.2.0",
+    "@angular/cdk": "^8.2.3"
+  },
+  "author": "kristxeng",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "keywords": [
+    "angular",
+    "cdk"
+  ]
 }

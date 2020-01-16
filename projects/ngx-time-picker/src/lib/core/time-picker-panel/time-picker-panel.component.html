@@ -1,0 +1,11 @@
+<form [formGroup]="form" (ngSubmit)="submit()">
+  <time-input-accessor formControlName="hour" [max]="23" [min]="0"></time-input-accessor>
+  <span class="colon">:</span>
+  <time-input-accessor formControlName="minute" [max]="59" [min]="0"></time-input-accessor>
+  <span class="colon">:</span>
+  <time-input-accessor formControlName="second" [max]="59" [min]="0"></time-input-accessor>
+  <div class="tp-btn-group">
+    <button type="button" (click)="cancel()">取消</button>
+    <button type="submit">確定</button>
+  </div>
+</form>

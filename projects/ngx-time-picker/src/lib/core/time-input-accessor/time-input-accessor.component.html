@@ -1,0 +1,8 @@
+<input
+  #input type="number" inputmode="numeric"
+  (keydown.ArrowUp)="onArrowUp($event)"
+  (keydown.ArrowDown)="onArrowDown($event)"
+  (change)="onInputChange(input.value)"
+  (blur)="onInputBlur()"
+  [disabled]="isDisabled"
+>
