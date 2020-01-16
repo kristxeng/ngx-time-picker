@@ -1,7 +1,7 @@
 {
   "name": "ngx-time-picker",
-  "version": "0.0.1",
-  "description": "angular time picker implements by angular cdk overlay",
+  "version": "0.0.2",
+  "description": "Time picker for Angular reactive form",
   "peerDependencies": {
     "@angular/common": "^8.2.0",
     "@angular/core": "^8.2.0",
@@ -12,7 +12,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "https://github.com/kristxeng/ngx-time-picker"
   },
   "keywords": [
     "angular",
