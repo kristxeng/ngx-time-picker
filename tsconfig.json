@@ -17,7 +17,15 @@
     "lib": [
       "es2018",
       "dom"
-    ]
+    ],
+    "paths": {
+      "ngx-time-picker": [
+        "dist/ngx-time-picker"
+      ],
+      "ngx-time-picker/*": [
+        "dist/ngx-time-picker/*"
+      ]
+    }
   },
   "angularCompilerOptions": {
     "fullTemplateTypeCheck": true,
